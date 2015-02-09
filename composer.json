@@ -1,5 +1,5 @@
 {
-    "name"        : "alf/trajectory",
+    "name"        : "alf/gpstrajectory",
     "type"        : "library",
     "description" : "Library for fetching trajectories from geological coordinates in both, spatial and temporal dimension.",
     "keywords"    : ["geo", "gps", "trajectory"],
