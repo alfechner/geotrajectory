@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/alfechner/gpstrajectory.git"
+            "url": "https://github.com/alfechner/php-units-of-measure.git"
         }
     ],
 
