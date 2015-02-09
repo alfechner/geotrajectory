@@ -28,7 +28,6 @@
 
     "require" : {
         "php"                               : ">=5.5.9",
-        "alf/gpstrajectory"                 : "dev-master",
         "triplepoint/php-units-of-measure"  : "dev-master"
     },
 
