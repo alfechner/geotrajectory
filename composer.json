@@ -1,0 +1,40 @@
+{
+    "name"        : "alf/trajectory",
+    "type"        : "library",
+    "description" : "Library for fetching trajectories from geological coordinates in both, spatial and temporal dimension.",
+    "keywords"    : ["geo", "gps", "trajectory"],
+    "homepage"    : "https://github.com/alfechner/geotrajectory",
+    "license"     : "MIT",
+
+    "authors" : [{
+        "name"     : "Alex Fechner",
+        "email"    : "fechner.alex@gmail.com",
+        "homepage" : "http://www.alexfechner.de",
+        "role"     : "Developer"
+    }],
+
+    "support" : {
+        "email"  : "fechner.alex@gmail.com",
+        "issues" : "https://github.com/alfechner/geotrajectory/issues",
+        "source" : "https://github.com/alfechner/geotrajectory"
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alfechner/gpstrajectory.git"
+        }
+    ],
+
+    "require" : {
+        "php"                               : ">=5.5.9",
+        "alf/gpstrajectory"                 : "dev-master",
+        "triplepoint/php-units-of-measure"  : "dev-master"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+            "Alf\\Trajectory\\"        : "src"
+        }
+    }
+}
